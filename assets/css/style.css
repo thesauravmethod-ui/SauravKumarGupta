@@ -164,18 +164,6 @@ p{margin:0;}
 .exp-bullets li{font-size:.86rem;color:var(--ink-soft);line-height:1.65;list-style:disc;margin-bottom:4px;}
 .exp-cta{margin-top:12px;}
 
-/* ---------- Booking form ---------- */
-.booking-form{max-width:560px;margin:32px auto 0;text-align:left;}
-.booking-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px;}
-.booking-form input,.booking-form textarea{
-  width:100%;font-family:var(--font-body);font-size:.92rem;padding:13px 16px;
-  border-radius:10px;border:1px solid rgba(62,17,35,.25);background:rgba(255,255,255,.75);
-  color:var(--wine-dark);
-}
-.booking-form input::placeholder,.booking-form textarea::placeholder{color:rgba(62,17,35,.5);}
-.booking-form textarea{margin-bottom:14px;resize:vertical;min-height:80px;}
-.booking-form input:focus,.booking-form textarea:focus{outline:2px solid var(--wine);outline-offset:1px;}
-
 /* ---------- Final CTA ---------- */
 .final-cta{text-align:center;max-width:680px;margin:0 auto;}
 
@@ -213,6 +201,5 @@ p{margin:0;}
   .timeline-item{padding-left:54px;}
   .timeline-dot{left:9px;}
   .footer-grid{flex-direction:column;align-items:flex-start;}
-  .booking-grid{grid-template-columns:1fr;}
   .exp-head{flex-direction:column;gap:2px;}
 }
