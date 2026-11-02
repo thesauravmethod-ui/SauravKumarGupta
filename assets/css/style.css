@@ -58,9 +58,9 @@ p{margin:0;}
 .heading-lg{font-size:clamp(1.8rem,3.2vw,2.5rem);line-height:1.18;}
 .heading-md{font-size:clamp(1.3rem,2vw,1.6rem);}
 .subhead{font-size:1.05rem;color:var(--ink-soft);max-width:660px;margin-top:16px;line-height:1.7;}
-.section--navy .subhead{color:rgba(62,17,35,.78);}
+.section--navy .subhead{color:var(--wine-dark);}
 .lede{font-size:.98rem;color:var(--grey);max-width:620px;margin-top:12px;}
-.section--navy .lede{color:rgba(62,17,35,.68);}
+.section--navy .lede{color:rgba(62,17,35,.9);}
 
 /* Buttons */
 .btn{
@@ -123,7 +123,7 @@ p{margin:0;}
 .cred-card{background:rgba(255,255,255,.5);border:1px solid rgba(62,17,35,.18);border-radius:var(--radius-sm);padding:22px;text-align:center;}
 .cred-card .icon{font-size:1.6rem;margin-bottom:10px;}
 .cred-card h4{color:var(--wine-dark);font-size:.92rem;margin-bottom:6px;}
-.cred-card p{color:rgba(62,17,35,.7);font-size:.76rem;}
+.cred-card p{color:rgba(62,17,35,.88);font-size:.76rem;}
 
 /* ---------- Timeline ---------- */
 .timeline{position:relative;margin-top:50px;max-width:880px;margin-left:auto;margin-right:auto;}
